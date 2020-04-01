@@ -1,0 +1,337 @@
+body{
+    background-color: black;
+    background-image: url('PB.jpg');
+    background-repeat: repeat-y;
+    background-size: cover;
+    margin: 0;
+    font-family: Lato Regular;
+}
+  
+.topnav {
+    overflow: hidden;
+    background-color: #1E1E1E;
+}
+  
+.topnav a {
+    float: left;
+    color: #EADCDC;
+    text-align: center;
+    padding: 5px 80px;
+    text-decoration: None;
+    font-size: 14px;
+}
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.topnav a.active {
+    background-color: #33030F;
+    color: white;
+}
+
+.subnav {
+    float: left;
+    overflow: hidden;
+}
+
+/* Subnav button */
+.subnav .subnavbtn {
+    font-size: 15px;
+    border: none;
+    color: #EADCDC;
+    padding: 0px 0px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+.subnav-content {
+    display: none;
+    position: absolute;
+    left: 30;
+    background-color: #1E1E1E;
+    width: 50%;
+    z-index: 1;
+}
+  
+.subnav-content a {
+    float: left;
+    color: #EADCDC;
+    text-decoration: none;
+}
+  
+.subnav-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.subnav:hover .subnav-content {
+    display: block;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+      
+ /* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+      
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+      
+/* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+background: #555;
+}
+
+@media only screen and (min-width: 320px) {
+    body {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('PB6.png');
+    }
+      
+    .topnav a {
+        padding: 7px 13px;
+        font-size: 11px;
+    }   
+
+    .topnav a.active {
+        padding: 8px 13px;
+    }
+    
+}
+
+@media only screen and (min-width: 360px) {
+    body {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('PB6.png');
+    }
+      
+    .topnav a {
+        padding: 10px 16px;
+        font-size: 12px;
+    }   
+
+    .topnav a.active {
+        padding: 10px 17px;
+    }
+    
+}
+
+@media only screen and (min-width: 375px) and (min-height: 667px) {
+    body {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('PB6.png');
+    }
+      
+    .topnav a {
+        padding: 10px 18px;
+        font-size: 12px;
+    }   
+
+    .topnav a.active {
+        padding: 10px 17px;
+    }
+    
+}
+
+@media only screen and (min-width: 375px) and (min-height: 812px) {
+    body {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('PB5.png');
+    }
+      
+    .topnav a {
+        padding: 10px 14px;
+        font-size: 14px;
+    }   
+
+    .topnav a.active {
+        padding: 10px 17px;
+    }
+}
+
+@media only screen and (min-width: 411px) and (min-height: 731px) {
+    body {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('PB4.png');
+    }
+      
+    .topnav a {
+        padding: 10px 19px;
+        font-size: 13px;
+    }
+
+}
+
+@media only screen and (min-width: 411px) and (min-height: 823px) {
+    body {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('PB4.png');
+    }
+      
+    .topnav a {
+        padding: 10px 18px;
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (min-width: 414px) {
+    body {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('PB3.png');
+    }
+      
+    .topnav a {
+        padding: 10px 21px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('PB2.png');
+    }
+      
+    .topnav a {
+        padding: 7px 39px;
+        font-size: 24px;
+    }
+
+    .topnav a.active {
+        padding: 7px 31px;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('PB2.png');
+}
+              
+.topnav a {
+    padding: 5px 61px;
+    font-size: 25px;
+}
+
+.topnav a.active {
+    padding: 7px 63px;
+}
+
+}      
+
+@media only screen and (min-width: 1280px) {
+body{
+    background-color: black;
+    background-image: url('PB.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family: Lato Regular;
+}
+  
+.topnav {
+    overflow: hidden;
+    background-color: #1E1E1E;
+}
+  
+.topnav a {
+    float: left;
+    color: #EADCDC;
+    text-align: center;
+    padding: 7px 129px;
+    text-decoration: None;
+    font-size: 15px;
+}
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.topnav a.active {
+    background-color: #33030F;
+    color: white;
+    padding: 7px 129px;
+}
+
+.subnav {
+    float: left;
+    overflow: hidden;
+}
+
+/* Subnav button */
+.subnav .subnavbtn {
+    font-size: 15px;
+    border: none;
+    color: #EADCDC;
+    padding: 0px 0px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+.subnav-content {
+    display: none;
+    position: absolute;
+    left: 30;
+    background-color: #1E1E1E;
+    width: 50%;
+    z-index: 1;
+}
+  
+.subnav-content a {
+    float: left;
+    color: #EADCDC;
+    text-decoration: none;
+}
+  
+.subnav-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.subnav:hover .subnav-content {
+    display: block;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+      
+ /* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+      
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+      
+/* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+background: #555;
+}
+}
